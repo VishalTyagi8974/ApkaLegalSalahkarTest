@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './TaxCalculator.css'; // Link to your existing calculator CSS file
-import showAverageTax from '../../../utils/taxCalculator'; // Assuming the utility functions are in utils.js
+import showAverageTax from '../../../utils/taxCalculatorLogic'; // Assuming the utility functions are in utils.js
 
 const TaxCalxulator = () => {
   const [income, setIncome] = useState(1200000);
