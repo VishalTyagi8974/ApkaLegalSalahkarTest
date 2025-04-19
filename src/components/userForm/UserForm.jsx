@@ -4,7 +4,7 @@ import { useForm } from 'react-hook-form';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import './UserForm.css';
-import ServiceSelect from './serviceSelect';
+import ServiceSelect from './ServiceSelect';
 
 
 function UserForm() {
